@@ -1,0 +1,15 @@
+Class CouponsAllState
+  Variable items
+  Variable meta
+  Variable loadStatus
+  Variable error
+  Default constructor CouponsAllState
+  Method copyWith (List<Coupon> items items, MetaPage meta meta, LoadStatusEnum loadStatus loadStatus, dynamic error error): CouponsAllState
+  Method toMap (): null
+  Method byId (int id id): Coupon
+  Method currentPage : int
+  Method canLoadNext : bool
+  Method loading : bool
+  Method loadingNext : bool
+  Method processLoading : bool
+  Method showList : bool
